@@ -35,6 +35,14 @@ a.mainlogo{
     color: inherit;
 }
 
+@media screen and (max-width: 480px) {
+    .mainlogo {
+        display: none;
+    }
+}
+
+
+
 
 header a{
     color: #d0cfd4;
